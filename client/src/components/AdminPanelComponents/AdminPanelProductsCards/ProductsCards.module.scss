@@ -1,0 +1,75 @@
+.product__card {
+    &_wrapper {
+        background-color: #faf6f0;
+        border-radius: 30px;
+        height: 710px;
+    }
+     
+    &_image {
+        text-align: center;
+    }
+
+    &__panel {
+        padding: 20px;
+        &_information {
+            :nth-child {
+                margin-bottom: 10px;
+            }
+            &_price {
+                margin-bottom: 10px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #56392F; 
+            }
+            &_viewCounts {
+                margin-bottom: 10px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #56392F; 
+            }
+            &_title {
+                margin-bottom: 10px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #56392F; 
+                text-decoration: none; 
+                display: block;
+            }
+        }
+        &_control {
+            div {
+                cursor: pointer;
+                border: 1px solid #cf3128;
+                border-radius: 10px;
+                padding: 0 5px;
+                height: 35px;
+                text-decoration: none;
+                color: #cf3128;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            display: flex;
+            justify-content: space-between;
+            &_change {
+                display: block;
+                cursor: pointer;
+                border: 1px solid #cf3128;
+                border-radius: 10px;
+                padding: 0 5px;
+                height: 35px;
+                text-decoration: none;
+                color: #cf3128;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+.test {
+    animation: none 2s linear forwards;
+}

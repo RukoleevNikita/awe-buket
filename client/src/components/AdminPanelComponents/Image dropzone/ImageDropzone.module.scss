@@ -1,0 +1,33 @@
+.dropZone {
+    border: 1px dashed red;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 142px;
+    padding: 10px;
+}
+
+.previewImg {
+    display: flex;
+    img {
+        height: 140px;
+        border-radius: 30px;
+    }
+    &__imageBox {
+        position: relative;
+
+        &_img {
+            margin: 10px;
+        }
+        &_remove {
+            height: 25px !important;
+            position: absolute;
+            cursor: pointer;
+            top: 5px;
+            left: 100px;
+        }
+    }
+}
+
+

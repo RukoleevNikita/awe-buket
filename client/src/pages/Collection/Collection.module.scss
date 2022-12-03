@@ -1,0 +1,19 @@
+.category {
+    padding-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.title {
+    color: aqua;    
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    width: 100%;
+}

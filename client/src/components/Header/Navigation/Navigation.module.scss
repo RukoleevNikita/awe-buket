@@ -1,0 +1,52 @@
+.navigation {
+    display: flex;
+    width: 1220px;
+    margin: 0 auto;
+    padding: 10px 0;
+    ul {
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;
+        width: 100%;
+        li {
+            &:first-child {
+                svg {
+                    margin-right: 7px;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: #56392F;
+                    background: #EED1B5;
+                    border-radius: 10px;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                    transition: 0.4s; 
+                }
+                a:hover {
+                    background-color: #56392F;
+                    span {
+                        color: white;
+                    }
+                    svg path{
+                        stroke: white;
+                    }
+                }
+            }
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            :hover {
+                color: #cf3128;
+            }
+            a { 
+                transition: 0.4s;
+            }
+        }
+    }
+     
+    &__logo {
+        height: 90px;
+    }
+}

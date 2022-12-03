@@ -1,0 +1,15 @@
+.cart {
+    h1 {
+        color: #56392F;
+        text-align: center;
+        padding: 10px 0;
+    }
+    &__order {
+        font-size: 40px;
+        line-height: 52px;
+        color: #56392F;
+        span {
+            font-weight: bold;
+        }
+    }
+}

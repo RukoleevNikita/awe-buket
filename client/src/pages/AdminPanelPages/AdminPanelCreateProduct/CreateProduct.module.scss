@@ -1,0 +1,35 @@
+.form__btn {
+    height: min-content;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.3s;
+    &:focus, &:hover {
+        background-color: rgba(0, 113, 240, 0.7);
+    }
+}
+.form {
+    display: flex;
+    justify-content: center;
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        textarea {
+            border: 1px solid red;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        input {
+            border: 1px solid red;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}

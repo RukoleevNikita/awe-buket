@@ -1,0 +1,26 @@
+.category__navigation  {
+    li {
+        position: relative;
+        background: #FAF6F0;
+        border-radius: 10px;
+        width: 260px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #56392F;
+        font-weight: bold;
+        margin-top: 15px;
+        cursor: pointer;
+        padding: 0 10px;
+        transition: 0.3s;
+        &:hover {
+            background-color: #56392F;
+            color: white;
+        }
+    }
+}
+
+.active {
+    background-color: #56392F !important;
+    color: white !important;
+}
